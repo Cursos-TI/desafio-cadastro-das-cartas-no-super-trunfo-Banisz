@@ -6,10 +6,11 @@ int main(){
     float PIB; = "103.201.000.000";
     int Turisticos; = '50'; 
     char estado = 'G';
-    char Cidade = 'Manaus';
+    char Cidade[50] = "Manaus";
 
 
-    printf("O Número da população é: %d\n");
+    printf("O Número da população é: %d\n", População);
+
 
 
 
